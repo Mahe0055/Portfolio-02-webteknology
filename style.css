@@ -1,8 +1,7 @@
-h1 {
-    font-size: 50px;
-}
+*{text-align: center;}
 
+h1 {font-size: 50px;}
 
-*{
-    text-align: center;
-}
+label {line-height: 40px;}
+
+button {background-color: red}
