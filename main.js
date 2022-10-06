@@ -41,16 +41,10 @@ console.log(age);
     }
 
 
-
 //Calculator
-
-
-
-
-/*
     const bedtime = input.value;
     const wakeUptime = input.value;
     const lackOfSleep = wakeUptime - bedtime
-    inputTag.innerHTML = ;
-
-    }
+    inputTag.innerHTML = wakeUptime - bedtime;
+    button.
+}
