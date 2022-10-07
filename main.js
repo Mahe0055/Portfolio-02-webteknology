@@ -8,20 +8,19 @@ button.addEventListener('click', function() {
     document.guerySelector("input")[0].value;
 
 //Borrowed code from previous assignment about functions.
-    function whichGender = gender ;
-    if (whichGender === "Female" && age >= 18){
+    function whichGender (gender) {
+        if (whichGender === "Female" && age >= 18){
         console.log("You are a female adult and science say that women need a bit more sleep than men, because of hormonal relationship")
-    }
-    else if(whichGender === "Male" && age >= 18){
+        }
+        else if(whichGender === "Male" && age >= 18){
         console.log("You are a male adult and science say that men have a bit of less need of sleep, because women's brain is a little more complex")
-    }
-}
-
+        }
+        };
 
 let age = document.querySelector("number");
 let number = age.input.number;
 console.log(age);
-});
+
 
     function intervalAge (age) {
         if (age <= 3)
@@ -40,11 +39,10 @@ console.log(age);
             return "Adults need to sleep 7-9 hours per day."
     }
 
-
 //Calculator
     const bedtime = input.value;
     const wakeUptime = input.value;
     const lackOfSleep = wakeUptime - bedtime
     inputTag.innerHTML = wakeUptime - bedtime;
-    button.
-}
+
+});
